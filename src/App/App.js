@@ -41,7 +41,7 @@ const AppBase = kind({
   },
 
   handlers: {
-    onClickIntroBtn: (ev, { onPanelIndexChange }, ctx) => {
+    onClickIntroBtn: (ev, { onPanelIndexChange }) => {
       // navigate to the list panel on click
       if (onPanelIndexChange) {
         onPanelIndexChange({
@@ -80,7 +80,6 @@ const AppBase = kind({
 
   render: ({
     kittenIndex,
-    onPanelIndexChange,
     onSelectKitten,
     panelIndex,
     onClickIntroBtn,

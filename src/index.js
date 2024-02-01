@@ -2,12 +2,10 @@
 import { createRoot, hydrateRoot } from "react-dom/client";
 
 import reportWebVitals from "./reportWebVitals";
-import TestApp from "./TestApp/TestApp";
-import AppWithRouter from "./AppWithRouter/AppWithRouter";
 import App from "./App";
+// import TestApp from "./TestApp/TestApp";
+// import AppWithRouter from "./AppWithRouter/AppWithRouter";
 // import App from "./App";
-
-
 
 const appElement = <App />;
 // const appElement = <AppWithRouter />;

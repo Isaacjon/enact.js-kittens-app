@@ -4,7 +4,7 @@ import ActionGuide from "@enact/sandstone/ActionGuide";
 
 const Greetings = kind({
   handlers: {
-    handleClick: (ev, props, ctx) => {
+    handleClick: (ev, props) => {
       const { onClickIntroBtn } = props || {};
       if (onClickIntroBtn) {
         onClickIntroBtn({ index: 1 });

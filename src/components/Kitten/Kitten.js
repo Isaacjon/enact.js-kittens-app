@@ -55,7 +55,7 @@ const KittenBase = kind({
             margin: 0,
             display: "inline-block",
           }}
-        ></Image>
+        />
         <div>{children}</div>
       </SpottableDiv>
     );

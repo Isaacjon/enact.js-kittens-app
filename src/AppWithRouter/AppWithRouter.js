@@ -1,7 +1,7 @@
-import Root from "../routes/root";
 import { createBrowserRouter, Link, RouterProvider } from "react-router-dom";
 import ThemeDecorator from "@enact/sandstone/ThemeDecorator";
-import { Route } from "@enact/ui/Routable";
+// import Root from "../routes/root";
+// import { Route } from "@enact/ui/Routable";
 
 const AppWithRouter = ThemeDecorator(() => {
   const router = createBrowserRouter([
