@@ -42,7 +42,6 @@
 		"@enact/spotlight": "^4.7.8",
 		"@enact/ui": "^4.7.8",
 		"@enact/webos": "^4.7.8",
-		"enact": "^4.7.8",
 		"ilib": "npm:ilib-webos@^14.19.0-webos1",
 		"localforage": "^1.10.0",
 		"match-sorter": "^6.3.3",
